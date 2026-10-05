@@ -1,0 +1,37 @@
+{
+  "classes": [
+    "background",
+    "clap",
+    "finger_tap",
+    "keyboard_mouse",
+    "keys",
+    "knock",
+    "pen_click",
+    "snaps",
+    "speech",
+    "whistle"
+  ],
+  "sample_rate": 16000,
+  "window_seconds": 0.4,
+  "window_samples": 6400,
+  "n_mels": 64,
+  "n_fft": 512,
+  "win_length": 400,
+  "hop_length": 160,
+  "f_min": 50,
+  "f_max": 8000,
+  "power": 2.0,
+  "top_db": 80,
+  "input_shape": [
+    1,
+    1,
+    64,
+    41
+  ],
+  "output_shape": [
+    1,
+    10
+  ],
+  "architecture": "TinyCNN",
+  "checkpoint": "tiny_cnn.pt"
+}
