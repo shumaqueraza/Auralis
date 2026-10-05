@@ -27,8 +27,7 @@ htmlcov/
 .env.*
 !.env.example
 
-.vscode/*
-!.vscode/settings.json
+.vscode/
 .idea/
 *.swp
 *.swo
